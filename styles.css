@@ -1,0 +1,78 @@
+body {
+	position: relative;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+hr {
+	height: 1px;
+	background-color: black;
+	color: black;
+}
+
+.all,.section,body,p,table,div,h2,h3,h4{
+	font-weight: normal;
+	font-style: normal;
+	font-family: "Arial";
+}
+
+h1 {
+	font-size: 40;
+	font-weight:normal;
+	font-style: normal;
+	font-family: "Arial";
+}
+}
+
+.align-left{ float: left;width:50%; }
+
+.align-right{float: right;width:50%}
+
+.contacts {
+	position: relative;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.colunm-container {
+	display: inline-flex;
+	flex-direction: column;
+	position: relative;
+	margin-left: 15px;
+	align-content: flex-start;
+
+}
+
+.flex-left {
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: left;
+}
+
+.flex-right {
+	margin-left: : auto;
+	margin-top: auto
+;	margin-bottom: auto;
+	text-align: right;
+}
+
+.row-container {
+	display: inline-flex;
+	flex-direction: row;
+	margin-left: 5px;
+}
+
+.row-long-container
+{
+	display: inline-flex;
+	flex-direction: row;
+	margin-left: 5px;
+	width: 100%;
+}
+
+.section {	
+	margin: 30px;
+	padding-left: 5px;
+}
